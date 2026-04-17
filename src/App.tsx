@@ -258,7 +258,7 @@ export default function App() {
           <section className="lg:col-span-8">
             <div className="bg-white rounded-[2.5rem] shadow-2xl shadow-slate-200 border border-slate-100 overflow-hidden ring-1 ring-slate-200">
               <div 
-                className="p-8 bg-white w-[794px] h-[1123px] flex flex-col items-center mx-auto overflow-hidden relative" 
+                className="p-5 sm:p-10 bg-white w-full max-w-[794px] min-h-[1123px] flex flex-col items-center mx-auto relative" 
                 ref={exportRef}
               >
                 {/* Report Header */}
